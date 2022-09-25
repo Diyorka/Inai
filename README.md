@@ -1,4 +1,4 @@
 # University tasks
 # Diyor Umurzakov
 
-![](https://economist.kg/wp-content/uploads/2022/06/economist.kg-18-2.png)
+![](https://www.google.com/url?sa=i&url=https%3A%2F%2Finai.kg%2Fevent%2Frezultat-testirovaniya-po-linii-daad&psig=AOvVaw3JuUydUJPa7aTP9udceoGA&ust=1664171835579000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKjg4qqhr_oCFQAAAAAdAAAAABAQ)
