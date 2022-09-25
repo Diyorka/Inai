@@ -24,7 +24,7 @@ public class Main {
 
 
         // Объект мотоциклиста
-        Motorcyclist motorcyclist = new Motorcyclist("Diyor", equipmentList);
+        Motorcyclist motorcyclist = new Motorcyclist("Диёр", equipmentList);
         System.out.println("Мотоциклист: " + motorcyclist.getName());
 
         // Стоимость экипировки
