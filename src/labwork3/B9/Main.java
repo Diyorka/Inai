@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        // Создаем объекты экипировки
+        // Создаем объекты самолетов
         Plane publicAirPlane = new PublicAirPlane("Airbus A220",6600,
                 108,71,1000,"Mirabel Airport");
 
@@ -58,7 +58,7 @@ public class Main {
         System.out.println();
 
 
-        // Вывод элементов экипировки в заданном диапазоне
+        // Вывод самолетов в заданном диапазоне
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите диапазон потребления горючего(например: 400 10000):");
         int a = sc.nextInt();
