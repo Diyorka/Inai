@@ -18,8 +18,12 @@ public class Math <T>{
     public void sumNum(){
         double sum = 0;
         for (T element:mas){
-            sum += Double.parseDouble(element.toString());
+            try{
+                sum += Double.parseDouble(element.toString());
+            }catch (Exception e){
+                System.out.println("Массив содержит не числовой тип данных!");
+            }
         }
-        System.out.println(sum);
+        System.out.println("Сумма числовых элементов массива: " + sum);
     }
 }
