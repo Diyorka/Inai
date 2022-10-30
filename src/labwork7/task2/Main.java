@@ -2,8 +2,8 @@ package labwork7.task2;
 
 public class Main {
     public static void main(String[] args) {
-        Object[] mas = {5.7, 1, "ff"};
-        Math math = new Math(mas);
-        math.sumNum();
+        Integer[] mas = {1, 5, 23};
+        Math<Integer> math = new Math<>();
+        System.out.println(math.sumNum(mas));
     }
 }

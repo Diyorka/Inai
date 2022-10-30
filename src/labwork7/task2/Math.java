@@ -1,29 +1,12 @@
 package labwork7.task2;
 
-public class Math <T>{
-    private T[] mas;
+public class Math <T extends Number> {
 
-    public Math(T[] mas) {
-        this.mas = mas;
-    }
-
-    public T[] getMas() {
-        return mas;
-    }
-
-    public void setMas(T[] mas) {
-        this.mas = mas;
-    }
-
-    public void sumNum(){
+    public double sumNum(T[] arr) {
         double sum = 0;
-        for (T element:mas){
-            try{
-                sum += Double.parseDouble(element.toString());
-            }catch (Exception e){
-                System.out.println("Массив содержит не числовой тип данных!");
-            }
+        for (T element : arr) {
+            sum += element.doubleValue();
         }
-        System.out.println("Сумма числовых элементов массива: " + sum);
+        return sum;
     }
 }
