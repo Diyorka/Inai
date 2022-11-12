@@ -10,6 +10,8 @@ public class Main {
         set.add(new Car("Mercedes-Benz", "E500", 2012));
         set.add(new Car("Toyota", "Land-Cruiser 300", 2021));
 
-        System.out.println(set);
+        for(Car car:set){
+            System.out.println(car.getBrandName() + " "+ car.getModel() + " "+car.getReleaseYear());
+        }
     }
 }
